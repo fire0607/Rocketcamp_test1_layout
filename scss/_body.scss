@@ -1,0 +1,17 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: "Roboto",;
+    font-size: 10px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

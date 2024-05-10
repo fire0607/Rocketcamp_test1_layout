@@ -1,0 +1,56 @@
+.other{
+    flex-direction: column;
+    font-style: italic;
+    padding: 5.6em 0;
+    h3{
+        font-size: 6.4em;
+        font-weight: 500;
+    }
+    p{
+        font-size: 2em;
+        padding: 0.4em 0;
+    }
+    ul{
+        max-width: 100%;
+    }
+    .poster{
+        padding-top: 5em;
+        text-align: center;
+        li{
+            max-width: 33.3%;
+            padding: 0 1em;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+    .photography{
+        text-align: center;
+        li{
+            max-width: 50%;
+            padding: 0 1em;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+    .design{
+        text-align: center;
+        li{
+            max-width: 33.3%;
+            padding: 0 1em;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+    @include pad{
+        font-size: 0.8em;
+        .poster,.photography,.design{
+            flex-direction: column;
+            li{
+                max-width: 100%;
+            }
+        }
+    }
+}
