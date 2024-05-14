@@ -90,13 +90,7 @@ header {
   text-align: left;
   color: #FFFFFF;
 }
-@media (max-width: 768px) {
-  .header-fonts {
-    padding-top: 10em;
-    justify-content: start;
-  }
-}
-.header-fonts h2 {
+.header-fonts h1 {
   font-size: 8em;
   font-weight: 900;
   padding-bottom: 0.32em;
@@ -105,6 +99,12 @@ header {
 .header-fonts p {
   font-size: 2.4em;
   font-weight: 600;
+}
+@media (max-width: 768px) {
+  .header-fonts {
+    padding-top: 10em;
+    justify-content: start;
+  }
 }
 
 .social-icon {
@@ -284,6 +284,14 @@ footer h3 {
 footer p {
   font-size: 2.4em;
   padding: 0.4em 0;
+}
+footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #891818;
+  transition: 0.5s;
 }
 @media (max-width: 768px) {
   footer {
