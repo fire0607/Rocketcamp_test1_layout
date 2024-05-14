@@ -17,11 +17,7 @@ header{
     font-style: italic;
     text-align: left;
     color: $white;
-    @include pad{
-        padding-top: 10em;
-        justify-content: start;
-      };
-    h2{
+    h1{
         font-size: 8em;
         font-weight: 900;
         padding-bottom: 0.32em;
@@ -31,6 +27,10 @@ header{
         font-size: 2.4em;
         font-weight: 600;
     }
+    @include pad{
+        padding-top: 10em;
+        justify-content: start;
+      }
 }
 
 .social-icon{
